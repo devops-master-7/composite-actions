@@ -3,11 +3,11 @@ name: printing greeting msg
 runs:
   using: "composite"
   steps:
-  -  name: printing name
-     run: echo "Hello Sunil"
-  -  name: printing surname
-     run: echo "Aldar"
-  -  name: greeting msg
-     run: |
+    -  name: printing name
+       run: echo "Hello Sunil"
+    -  name: printing surname
+       run: echo "Aldar"
+    -  name: greeting msg
+       run: |
        echo "Hello Sunil Aldar"
        echo "Good Evening"
